@@ -1,0 +1,36 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "name": "graphql-forum",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "database" : "graphql-forum",
+    "dialect": "mysql",
+    "dialectOptions": {
+        "bigNumberStrings": true
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": "",
+    "name": "graphql-forum",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "dialect": "mysql",
+    "dialectOptions": {
+        "bigNumberStrings": true
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": "",
+    "name": "graphql-forum",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "dialect": "mysql",
+    "dialectOptions": {
+        "bigNumberStrings": true
+    }
+  }
+}
