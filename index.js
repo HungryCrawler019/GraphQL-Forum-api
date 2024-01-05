@@ -11,6 +11,7 @@ const resolvers = require('./resolvers')
 const server = new ApolloServer({
     typeDefs,
     resolvers,
+    context: { models }
 })
 
 async function startServer() {
